@@ -7,10 +7,10 @@ var messagedisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetbutton = document.querySelector("#reset");
 var sound = new Howl({
-  src: ['Music/bubbles.mp3']
+  src: ['bubbles.mp3']
 });
 var sound2 = new Howl({
-  src: ['Music/prism-2.mp3']
+  src: ['prism-2.mp3']
 });
 
 colordisplay.textContent = pickedcolor;
